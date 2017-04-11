@@ -11,6 +11,7 @@ html {
 .container {
 	max-width: 1000px;
 	background-color: #ffffff;
+  margin: 0 auto;
 }
 
 .visuallyhidden {
