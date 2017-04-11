@@ -69,3 +69,63 @@ header {
 	text-align: center;
 	padding: 40px 0px 40px 0px;
 }
+
+#header {
+	height: auto;
+	margin: auto;
+}
+
+nav ul {
+	margin: 0 auto;
+	padding: 0;
+	text-align: center;
+	padding-bottom: 0.5em;
+	list-style: none;
+}
+
+nav a {
+  display: inline-block;
+  line-height: 44px;
+  text-decoration: none;
+  text-align: center;
+  text-transform: uppercase;
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold;
+  font-size: 1.2em;
+  letter-spacing: 0.1em;
+  color: #bc0000;
+  border: none;
+}
+
+#nav a:hover {
+  display: inline-block;
+  line-height: 44px;
+  text-decoration: none;
+  text-align: center;
+  text-transform: uppercase;
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold;
+  font-size: 1.2em;
+  letter-spacing: 0.1em;
+  border: none;
+  color: #ffd800;
+}
+
+@media all and (min-width: 500px) {
+	nav li {
+		width: 100%;
+		display: inline-block;
+	}
+}
+
+@media all and (min-width: 750px) {
+	nav li {
+		width: calc(100% / 3);
+	}
+}
+
+@media all and (min-width: 900px) {
+	nav li {
+		width: calc(100% / 6);
+	}
+}
