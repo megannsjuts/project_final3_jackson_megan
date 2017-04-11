@@ -56,3 +56,16 @@ h3 {
 a {
 	color: #68d5ca;
 }
+
+body {
+  background: #ffffff url(../img/red.jpg) repeat;
+}
+
+header {
+  background-color: white;
+}
+
+#logo {
+	text-align: center;
+	padding: 40px 0px 40px 0px;
+}
