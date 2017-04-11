@@ -29,4 +29,30 @@ body {
 	margin: 0;
 	padding: 0;
 	color: black;
+  font-family: 'Roboto', sans-serif;
+}
+
+h1, h2, h3 {
+	margin: 0;
+	padding: 0;
+	text-transform: uppercase;
+	font-weight: bold;
+}
+
+h1 {
+	font-family: 'Port Lligat Slab', serif;
+	color: #bc0000;
+	font-size: 2em;
+}
+
+h2 {
+	font-size: 2.8em;
+}
+
+h3 {
+	font-size: 1.6em;
+}
+
+a {
+	color: #68d5ca;
 }
