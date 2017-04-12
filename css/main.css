@@ -217,6 +217,15 @@ footer a {
 	color: #ffffff;
 }
 
+footer a:hover {
+	padding-top: 20px;
+	letter-spacing: 1px;
+	line-height: normal;
+	text-transform: uppercase;
+	text-decoration: none;
+	color: #ffd800;
+}
+
 footer a + a {
 	padding-left: 2em;
 }
