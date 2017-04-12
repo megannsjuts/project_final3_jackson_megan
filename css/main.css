@@ -163,7 +163,78 @@ main p {
 	text-align: center;
 	font-size: 1.2em;
 	line-height: 2em;
-	margin-bottom: 2em;
+	margin-bottom: 3.5em;
+}
+
+figure img {
+	margin: 0 auto;
+	height: auto;
+	width: calc(100% / 3);
+}
+
+figcaption {
+	font-family: 'Roboto', sans-serif;
+	font-weight: bold;
+	letter-spacing: 0.15em;
+	font-size: 1em;
+	text-align: center;
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+
+@media all and (min-width: 300px) {
+	figure img {
+		margin: 0 auto;
+		height: auto;
+		width: calc(100% / 1.5);
+	}
+
+	figcaption {
+		font-family: 'Roboto', sans-serif;
+		font-weight: bold;
+		letter-spacing: 0.2em;
+		font-size: 1em;
+		line-height: 2em;
+		text-align: center;
+		margin-top: 30px;
+		margin-bottom: 30px;
+	}
+}
+
+@media all and (min-width: 500px) {
+	figure img {
+		margin: 0 auto;
+		height: auto;
+		width: calc(100% / 2);
+	}
+
+	figcaption {
+		font-family: 'Roboto', sans-serif;
+		font-weight: bold;
+		letter-spacing: 0.2em;
+		font-size: 1em;
+		text-align: center;
+		margin-top: 30px;
+		margin-bottom: 30px;
+	}
+}
+
+@media all and (min-width: 750px) {
+	figure img {
+		margin: 0 auto;
+		height: auto;
+		width: calc(100% / 3);
+	}
+
+	figcaption {
+		font-family: 'Roboto', sans-serif;
+		font-weight: bold;
+		letter-spacing: 0.2em;
+		font-size: 1em;
+		text-align: center;
+		margin-top: 30px;
+		margin-bottom: 30px;
+	}
 }
 
 article {
