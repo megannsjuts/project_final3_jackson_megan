@@ -162,8 +162,40 @@ main h1 {
 main p {
 	text-align: center;
 	font-size: 1.2em;
-	padding: 0 2em 0 2em;
 	line-height: 2em;
+	margin-bottom: 2em;
+}
+
+article {
+	text-align: center;
+}
+
+article .button {
+	background-color: #68d5ca;
+	border: none;
+	border-radius: 3px;
+	color: white;
+	padding: 15px 32px;
+	text-align: center;
+	text-decoration: none;
+	font-size: 16px;
+	font-family: 'Roboto', sans-serif;
+	font-weight: bold;
+	letter-spacing: 0.05em;
+}
+
+article .button:hover {
+	background-color: #ffffff;
+	border: #68d5ca solid 2px;
+	border-radius: 3px;
+	color: #68d5ca;
+	padding: 15px 32px;
+	text-align: center;
+	text-decoration: none;
+	font-size: 16px;
+	font-family: 'Roboto', sans-serif;
+	font-weight: bold;
+	letter-spacing: 0.05em;
 }
 
 @media all and (min-width: 300px) {
