@@ -11,7 +11,7 @@ html {
 .container {
 	max-width: 1000px;
 	background-color: #ffffff;
-  margin: 0 auto;
+	margin: 0 auto;
 }
 
 .visuallyhidden {
@@ -30,10 +30,12 @@ body {
 	margin: 0;
 	padding: 0;
 	color: black;
-  font-family: 'Roboto', sans-serif;
+	font-family: 'Roboto', sans-serif;
 }
 
-h1, h2, h3 {
+h1,
+h2,
+h3 {
 	margin: 0;
 	padding: 0;
 	text-transform: uppercase;
@@ -59,16 +61,16 @@ a {
 }
 
 body {
-  background: #ffffff url(../img/red.jpg) repeat;
+	background: #ffffff url(../img/red.jpg) repeat;
 }
 
 header {
-  background-color: white;
+	background-color: white;
 }
 
 #logo {
 	text-align: center;
-	padding: 40px 0px 40px 0px;
+	padding: 40px 0 40px 0;
 }
 
 #header {
@@ -85,31 +87,31 @@ nav ul {
 }
 
 nav a {
-  display: inline-block;
-  line-height: 44px;
-  text-decoration: none;
-  text-align: center;
-  text-transform: uppercase;
-  font-family: 'Roboto', sans-serif;
-  font-weight: bold;
-  font-size: 1.2em;
-  letter-spacing: 0.1em;
-  color: #bc0000;
-  border: none;
+	display: inline-block;
+	line-height: 3em;
+	text-decoration: none;
+	text-align: center;
+	text-transform: uppercase;
+	font-family: 'Roboto', sans-serif;
+	font-weight: bold;
+	font-size: 1.2em;
+	letter-spacing: 0.1em;
+	color: #bc0000;
+	border: none;
 }
 
 #nav a:hover {
-  display: inline-block;
-  line-height: 44px;
-  text-decoration: none;
-  text-align: center;
-  text-transform: uppercase;
-  font-family: 'Roboto', sans-serif;
-  font-weight: bold;
-  font-size: 1.2em;
-  letter-spacing: 0.1em;
-  border: none;
-  color: #ffd800;
+	display: inline-block;
+	line-height: 3em;
+	text-decoration: none;
+	text-align: center;
+	text-transform: uppercase;
+	font-family: 'Roboto', sans-serif;
+	font-weight: bold;
+	font-size: 1.2em;
+	letter-spacing: 0.1em;
+	border: none;
+	color: #ffd800;
 }
 
 @media all and (min-width: 300px) {
@@ -117,6 +119,7 @@ nav a {
 		width: 100%;
 		display: inline-block;
 		text-align: center;
+		font-size: 1em;
 	}
 }
 
@@ -135,7 +138,7 @@ nav a {
 }
 
 #banner {
-	margin: 0px auto;
+	margin: 0 auto;
 }
 
 #banner img {
@@ -145,7 +148,7 @@ nav a {
 }
 
 main {
-	padding: 2em 0 2em 0;
+	padding: 0 0 3em 0;
 }
 
 main h1 {
@@ -201,7 +204,7 @@ main p {
 }
 
 footer {
-	padding: 50px 0 50px 0;
+	padding: 20px 0 20px 0;
 	background-color: #bc0000;
 	font-family: 'Port Lligat Slab', serif;
 	text-align: center;
