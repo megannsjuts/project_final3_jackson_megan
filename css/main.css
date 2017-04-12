@@ -130,3 +130,93 @@ nav a {
 		width: calc(100% / 6);
 	}
 }
+
+#banner {
+	margin: 0px auto;
+}
+
+#banner img {
+	width: 100%;
+	height: auto;
+	background: url(../img/banner.jpg) no-repeat left bottom;
+}
+
+main h1 {
+	text-align: center;
+	font-size: 2.5em;
+	letter-spacing: 0.1em;
+	margin-top: 1em;
+	margin-bottom: 1em;
+}
+
+main p {
+	text-align: center;
+	font-size: 1.2em;
+	padding: 0 2em 0 2em;
+	line-height: 2em;
+}
+
+@media all and (min-width: 300px) {
+	main h1 {
+		text-align: center;
+		font-size: 1.3em;
+		letter-spacing: 0.1em;
+		line-height: 2em;
+		margin-top: 1em;
+		margin-bottom: 1em;
+	}
+	main p {
+		text-align: center;
+		font-size: 1em;
+		padding: 0 2em 0 2em;
+		line-height: 2em;
+	}
+}
+
+@media all and (min-width: 500px) {
+	main h1 {
+		text-align: center;
+		font-size: 1.5em;
+		letter-spacing: 0.1em;
+		margin-top: 1em;
+		margin-bottom: 1em;
+	}
+}
+
+@media all and (min-width: 750px) {
+	main h1 {
+		text-align: center;
+		font-size: 2.5em;
+		letter-spacing: 0.1em;
+		margin-top: 1em;
+		margin-bottom: 1em;
+	}
+}
+
+footer {
+	padding: 50px 0 50px 0;
+	background-color: #bc0000;
+	font-family: 'Port Lligat Slab', serif;
+	text-align: center;
+}
+
+footer p {
+	padding-top: 10px;
+	letter-spacing: 1px;
+	line-height: normal;
+	text-transform: uppercase;
+	color: #ffffff;
+}
+
+footer a {
+	padding-top: 20px;
+	letter-spacing: 1px;
+	line-height: normal;
+	text-transform: uppercase;
+	text-decoration: none;
+	color: #ffffff;
+}
+
+footer a + a {
+	padding-left: 2em;
+}
