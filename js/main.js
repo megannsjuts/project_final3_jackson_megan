@@ -8,8 +8,7 @@ $(document).ready(function() {
 			"img/yellow.jpg",
 			"img/orange.jpg"
 		], {
-			duration: 3000,
-			fade: 750
+			fade: 1000
 		}
 	);
 
