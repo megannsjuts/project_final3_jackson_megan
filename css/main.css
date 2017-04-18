@@ -731,8 +731,46 @@ footer img {
 	font-size: 2em;
 	text-align: center;
 	margin: 0 auto;
-	font-size: 2.5em;
 	letter-spacing: 0.1em;
 	padding-top: 1em;
 	padding-bottom: 1em;
+}
+
+@media all and (min-width: 300px) {
+	.grid h2 {
+		font-family: 'Port Lligat Slab', serif;
+		color: #aeca3b;
+		font-size: 1.75em;
+		text-align: center;
+		margin: 0 auto;
+		letter-spacing: 0.1em;
+		line-height: 1.5em;
+		padding: 1em 1em;
+	}
+}
+
+@media all and (min-width: 500px) {
+	.grid h2 {
+		font-family: 'Port Lligat Slab', serif;
+		color: #aeca3b;
+		font-size: 1.75em;
+		text-align: center;
+		margin: 0 auto;
+		letter-spacing: 0.1em;
+		line-height: 1.5em;
+		padding: 1em 1em;
+	}
+}
+
+@media all and (min-width: 750px) {
+	.grid h2 {
+		font-family: 'Port Lligat Slab', serif;
+		color: #aeca3b;
+		font-size: 2em;
+		text-align: center;
+		margin: 0 auto;
+		letter-spacing: 0.1em;
+		padding-top: 1em;
+		padding-bottom: 1em;
+	}
 }
