@@ -93,7 +93,6 @@ body {
 }
 
 /* HOME PAGE */
-
 h1,
 h2,
 h3 {
@@ -464,7 +463,6 @@ footer img {
 }
 
 /* ABOUT PAGE */
-
 #chang figcaption {
 	font-family: 'Roboto', sans-serif;
 	font-weight: bold;
@@ -531,11 +529,16 @@ footer img {
 }
 
 /* MENU PAGE */
-
 .menu h1 {
 	font-family: 'Port Lligat Slab', serif;
-	color: #bc0000;
+	color: #aeca3b;
 	font-size: 2em;
+	text-align: center;
+	margin: 0 auto;
+	font-size: 2.5em;
+	letter-spacing: 0.1em;
+	padding-top: 1em;
+	padding-bottom: 1em;
 }
 
 .menu h2 {
@@ -574,7 +577,6 @@ footer img {
 }
 
 /* PHOTOS PAGE */
-
 .responsive-image {
 	max-width: 100%;
 }
