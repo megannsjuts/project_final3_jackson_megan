@@ -329,6 +329,7 @@ article .button {
 	border-radius: 3px;
 	color: white;
 	padding: 15px 32px;
+	margin-top: 3em;
 	text-align: center;
 	text-decoration: none;
 	font-size: 16px;
@@ -343,6 +344,7 @@ article .button:hover {
 	border-radius: 3px;
 	color: #68d5ca;
 	padding: 15px 32px;
+	margin-top: 3em;
 	text-align: center;
 	text-decoration: none;
 	font-size: 16px;
@@ -568,4 +570,5 @@ footer img {
 	font-size: 1em;
 	padding: 0;
 	margin: 0;
+	font-style: italic;
 }
