@@ -527,3 +527,45 @@ footer img {
 		margin-bottom: 30px;
 	}
 }
+
+/* MENU PAGE */
+
+.menu h1 {
+	font-family: 'Port Lligat Slab', serif;
+	color: #bc0000;
+	font-size: 2em;
+}
+
+.menu h2 {
+	font-family: 'Port Lligat Slab', serif;
+	color: #bc0000;
+	font-size: 2em;
+	letter-spacing: 0.1em;
+	margin-top: 2em;
+	padding-bottom: 0.5em;
+}
+
+.menu ul {
+	margin: 0 auto;
+	padding: 0;
+	text-align: center;
+	list-style: none;
+}
+
+.menu ul li {
+	display: block;
+	line-height: 4em;
+	text-decoration: none;
+	text-align: center;
+	font-family: 'Roboto', sans-serif;
+	font-size: 1em;
+	letter-spacing: 0.05em;
+	color: black;
+}
+
+#note {
+	text-align: center;
+	font-size: 1em;
+	padding: 0;
+	margin: 0;
+}
