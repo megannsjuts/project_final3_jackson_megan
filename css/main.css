@@ -587,6 +587,12 @@ footer img {
 	margin: 1em;
 }
 
+#chips,
+#fries,
+#salad {
+	margin-top: 0;
+}
+
 @media screen and (min-width: 500px) {
 	.grid {
 		display: flex;
@@ -602,4 +608,16 @@ footer img {
 	.cell {
 		width: calc(33.3333% - 2em);
 	}
+}
+
+.grid h2 {
+	font-family: 'Port Lligat Slab', serif;
+	color: #aeca3b;
+	font-size: 2em;
+	text-align: center;
+	margin: 0 auto;
+	font-size: 2.5em;
+	letter-spacing: 0.1em;
+	padding-top: 1em;
+	padding-bottom: 1em;
 }
