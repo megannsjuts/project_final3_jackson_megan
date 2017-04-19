@@ -101,8 +101,10 @@ document.getElementById('events').addEventListener('mouseenter', function () {
 	alert('The winner of the contest will receive a $25 gift certificate!');
 });
 
-document.getElementById('chang').addEventListener('click', function () {
-	var myElement = document.createElement('article');
-	myElement.innerHTML = '<p>Ben is also a Spanish professor on the show.</p>';
-	document.getElementsByClassName('caption')[0].appendChild(myElement);
-});
+if (document.getElementById('chang') != null) {
+	document.getElementById('chang').addEventListener('click', function () {
+		var myElement = document.createElement('article');
+		myElement.innerHTML = '<p>Ben is also a Spanish professor on the show.</p>';
+		document.getElementsByClassName('caption')[0].appendChild(myElement);
+	});
+}
