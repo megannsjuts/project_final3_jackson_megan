@@ -325,7 +325,7 @@ article {
 
 article .button {
 	background-color: #68d5ca;
-	border: none;
+	border: #68d5ca solid 2px;
 	border-radius: 3px;
 	color: white;
 	padding: 15px 32px;
