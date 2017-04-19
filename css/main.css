@@ -794,3 +794,75 @@ footer img {
 		padding-bottom: 1em;
 	}
 }
+
+/* EC FORM */
+form {
+	margin: auto;
+	text-align: center;
+}
+
+.form {
+	font-family: 'Port Lligat Slab', serif;
+	background-color: #bc0000;
+	color: white;
+	padding: 1em 0 1em 0;
+	font-size: 2em;
+	letter-spacing: 0.1em;
+	margin-top: 3em;
+	margin-bottom: 1em;
+	text-align: center;
+}
+
+input,
+textarea {
+	width: 20em;
+	border-radius: 3px;
+	border-color: #bc0000 solid 3px;
+}
+
+label,
+input,
+textarea {
+	display: block;
+	margin: auto;
+	padding: 10px;
+}
+
+label {
+	font-family: 'Roboto', sans-serif;
+	font-weight: bold;
+	color: #bc0000;
+	letter-spacing: 3px;
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+
+#submit {
+	width: 10em;
+	background-color: #bc0000;
+	border: #bc0000 solid 2px;
+	border-radius: 3px;
+	color: white;
+	margin-top: 3em;
+	text-align: center;
+	text-decoration: none;
+	font-size: 16px;
+	font-family: 'Roboto', sans-serif;
+	font-weight: bold;
+	letter-spacing: 0.05em;
+}
+
+#submit:hover {
+	width: 10em;
+	background-color: #ffffff;
+	border: #bc0000 solid 2px;
+	border-radius: 3px;
+	color: #bc0000;
+	margin-top: 3em;
+	text-align: center;
+	text-decoration: none;
+	font-size: 16px;
+	font-family: 'Roboto', sans-serif;
+	font-weight: bold;
+	letter-spacing: 0.05em;
+}
