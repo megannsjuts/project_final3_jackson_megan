@@ -84,6 +84,37 @@
 					</section>
 					<a href="photos.html"><button type="button" class="button">PHOTO GALLERY</button></a>
 			</article>
+			<div class="container">
+				<form method="post" action="form.php">
+					<label for="firstName">FIRST NAME</label>
+					<input type="text" name="firstName" id="firstName" placeholder="your first name" />
+
+					<label for="lastName">LAST NAME</label>
+					<input type="text" name="lastName" id="lastName" placeholder="your last name" />
+
+					<label for="email">EMAIL</label>
+					<input type="email" name="email" id="email" placeholder="your email" />
+
+					<label for="form_options">Menu Items</label>
+	        <select id="form_options" name="req_options">
+						<option id="form_options_options_option1" value="">SELECT</option>
+	        	<option id="form_options_options_option2" value="option2">Potato Chips</option>
+	       		<option id="form_options_options_option3" value="option3">French Fries</option>
+						<option id="form_options_options_option4" value="option4">Garden Salad</option>
+						<option id="form_options_options_option5" value="option5">Turkey Sandwich</option>
+						<option id="form_options_options_option6" value="option6">Ham Sandwich</option>
+						<option id="form_options_options_option7" value="option7">Grilled Chicken Wrap</option>
+						<option id="form_options_options_option8" value="option8">Cookies</option>
+						<option id="form_options_options_option9" value="option9">Brownies</option>
+						<option id="form_options_options_option10" value="option10">Slice of Cake</option>
+	        </select>
+
+					<label for="message">MESSAGE</label>
+					<textarea name="message" id="message" rows="10" placeholder="notes..."></textarea>
+
+					<input type="submit" name="submit" id="submit" value="SUBMIT" />
+				</form>
+			</div>
 		</main>
 		<footer id="footer">
 			<h2 class="visuallyhidden">Footer</h2>
