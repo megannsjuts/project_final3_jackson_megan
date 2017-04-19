@@ -19,6 +19,7 @@ html {
 	margin: 0 auto;
 	text-align: center;
 	letter-spacing: 0.03em;
+	z-index: 2;
 }
 
 @media all and (min-width: 300px) {
