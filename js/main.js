@@ -1,3 +1,5 @@
+// backstretch plugin
+
 $(document).ready(function () {
 
 	$.backstretch(
@@ -13,6 +15,8 @@ $(document).ready(function () {
 	);
 
 });
+
+// owl carousel plugin
 
 $(document).ready(function () {
 	$('.owl-carousel').owlCarousel();
@@ -34,6 +38,8 @@ $('.owl-carousel').owlCarousel({
 		}
 	}
 });
+
+// custom jQuery
 
 $('#chips img').hover(function () {
 	$(this).attr('src', 'img/chipshover.png');
@@ -87,4 +93,16 @@ $('#cake img').hover(function () {
 	$(this).attr('src', 'img/cakehover.png');
 }, function () {
 	$(this).attr('src', 'img/cake.jpg');
+});
+
+// custom JavaScript
+
+document.getElementById('events').addEventListener('mouseenter', function () {
+	alert('The winner of the contest will receive a $25 gift certificate!');
+});
+
+document.getElementById('chang').addEventListener('click', function () {
+	var myElement = document.createElement('article');
+	myElement.innerHTML = '<p>Ben is also a Spanish professor on the show.</p>';
+	document.getElementsByClassName('caption')[0].appendChild(myElement);
 });
