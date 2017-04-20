@@ -2,7 +2,7 @@
 
 * [GitHub Link](https://github.com/megannsjuts/project_final3_jackson_megan.git)
 * [Web Host Link](http://building07.com/project_final3_jackson_megan/)
-* [W3C Validator Link]()
+* [W3C Validator Link](https://validator.w3.org/nu/?doc=http%3A%2F%2Fbuilding07.com%2Fproject_final3_jackson_megan%2F)
 * [HTML5 Outliner: Home](https://gsnedders.html5.org/outliner/process.py?url=http%3A%2F%2Fbuilding07.com%2Fproject_final3_jackson_megan%2Findex.html)
 * [HTML5 Outliner: About](https://gsnedders.html5.org/outliner/process.py?url=http%3A%2F%2Fbuilding07.com%2Fproject_final3_jackson_megan%2Fabout.html)
 * [HTML5 Outliner: Menu](https://gsnedders.html5.org/outliner/process.py?url=http%3A%2F%2Fbuilding07.com%2Fproject_final3_jackson_megan%2Fmenu.html)
@@ -76,3 +76,8 @@ action element in the form HTML.
 I reviewed the list of deductions for this project and in the syllabus.
 
 # Comments
+
+Wow - what a challenging course! Thank you for a great semester and for pushing
+us to learn new concepts! I know we will all be better designers and developers
+because of it. I look forward to receiving your feedback on this final project and
+the remaining assignments as well! Have a great summer!! :) 
