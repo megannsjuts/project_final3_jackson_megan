@@ -228,6 +228,8 @@ nav a {
 
 main {
 	padding: 0 0 3em 0;
+	margin: auto;
+	text-align: center;
 }
 
 main h1 {
@@ -323,13 +325,16 @@ article {
 	text-align: center;
 }
 
-article .button {
+#button {
+	padding-top: 3em;
+}
+
+.button {
 	background-color: #68d5ca;
 	border: #68d5ca solid 2px;
 	border-radius: 3px;
 	color: white;
 	padding: 15px 32px;
-	margin-top: 3em;
 	text-align: center;
 	text-decoration: none;
 	font-size: 16px;
@@ -338,13 +343,12 @@ article .button {
 	letter-spacing: 0.05em;
 }
 
-article .button:hover {
+.button:hover {
 	background-color: #ffffff;
 	border: #68d5ca solid 2px;
 	border-radius: 3px;
 	color: #68d5ca;
 	padding: 15px 32px;
-	margin-top: 3em;
 	text-align: center;
 	text-decoration: none;
 	font-size: 16px;
