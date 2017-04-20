@@ -325,6 +325,10 @@ article {
 	text-align: center;
 }
 
+#button {
+	padding-top: 3em;
+}
+
 .button {
 	background-color: #68d5ca;
 	border: #68d5ca solid 2px;
